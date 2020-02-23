@@ -4,7 +4,8 @@ services:
 
 before_install: 
   - docker build -t amashr/amashr-webapp -f Dockerfile .
-
+  
+language: generic
 deploy: 
   edge: true
   provider: elasticbeanstalk
