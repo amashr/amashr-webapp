@@ -31,16 +31,16 @@ const BannerData = {
     AgencyTestimonial: [
         {
             id: 1,
-            image: 'author_img.png',
-            authorName: 'Lurch Schpellchek',
-            authorPost: 'UI/UX designer',
-            description: 'What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it`s all gone to pot buggered.',
+            image: 'patra.png',
+            authorName: 'Patra Sumari',
+            authorPost: 'HR Manager',
+            description: 'AmasHR system, has provided us a strategic tool to dramatically increase our retention with measurable results –and faster than we ever expected.',
         },
         {
             id: 2,
-            image: 'author_img.png',
-            authorName: 'Lurch Schpellchek',
-            authorPost: 'UI/UX designer',
+            image: 'mboni.png',
+            authorName: 'Mbonny Maumba',
+            authorPost: 'Marketing Manager',
             description: 'What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it`s all gone to pot buggered.',
         }
     ]
