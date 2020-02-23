@@ -5,3 +5,6 @@ services:
 before_install: 
   - gem install bundler
   - docker build -t amashr/amashr-webapp -f Dockerfile.dev .
+
+script: 
+  - bundle exec rake spec
