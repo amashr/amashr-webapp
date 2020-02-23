@@ -4,3 +4,18 @@ services:
 
 before_install: 
   - docker build -t amashr/amashr-webapp -f Dockerfile .
+
+deploy: 
+  edge: true
+  provider: elasticbeanstalk
+  region: "us-east-2"
+  app: "amashr-webapp"
+  env: "AmashrWebapp-env"
+  bucket_name: "elasticbeanstalk-us-east-2-682631084185"
+  bucket_path: "amashr-webapp"
+  on: 
+    branch: master
+  access_key_id: "AWS_ACCESS_KEY"
+  secret_access_key:
+    secure: "AWS_SECRET_KEY"
+
