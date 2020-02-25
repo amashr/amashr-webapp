@@ -78,7 +78,7 @@ const ServiceData = {
     HRService: [
         {
             id: '1',
-            HRtitles : 'Export Presets',
+            HRtitles : 'People Data & Analytics',
             HRdescription: 'Bog cheeky bugger blow off only a quid grub he legged it porkies tosser young delinquent argy-bargy.',
             Hicon: 'panel',
             rclass : 'pr_70',
@@ -86,7 +86,7 @@ const ServiceData = {
         },
         {
             id: '2',
-            HRtitles : 'Grid and Guides',
+            HRtitles : 'Hiring',
             HRdescription: 'Bog cheeky bugger blow off only a quid grub he legged it porkies tosser young delinquent argy-bargy.',
             Hicon: 'layout-grid2',
             rclass : 'pl_50 pr_20',
@@ -94,7 +94,7 @@ const ServiceData = {
         },
         {
             id: '3',
-            HRtitles : 'Pixel Precision',
+            HRtitles : 'Custom Reports',
             HRdescription: 'Bog cheeky bugger blow off only a quid grub he legged it porkies tosser young delinquent argy-bargy.',
             Hicon: 'fullscreen',
             rclass : 'pl_70',
@@ -102,7 +102,7 @@ const ServiceData = {
         },
         {
             id: '4',
-            HRtitles : 'Vector Editing',
+            HRtitles : 'Onboarding',
             HRdescription: 'Bog cheeky bugger blow off only a quid grub he legged it porkies tosser young delinquent argy-bargy.',
             Hicon: 'vector',
             rclass : 'pr_70',
@@ -110,7 +110,7 @@ const ServiceData = {
         },
         {
             id: '5',
-            HRtitles : 'Cloud Service',
+            HRtitles : 'Compensation',
             HRdescription: 'Bog cheeky bugger blow off only a quid grub he legged it porkies tosser young delinquent argy-bargy.',
             Hicon: 'cloud-down',
             rclass : 'pl_50 pr_20',
@@ -118,7 +118,7 @@ const ServiceData = {
         },
         {
             id: '6',
-            HRtitles : 'Iterate at Speed',
+            HRtitles : 'Culture',
             HRdescription: 'Bog cheeky bugger blow off only a quid grub he legged it porkies tosser young delinquent argy-bargy.',
             Hicon: 'bolt',
             rclass : 'pl_70',

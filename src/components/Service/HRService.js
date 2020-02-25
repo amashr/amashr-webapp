@@ -14,7 +14,7 @@ class HRService extends Component{
                     <div className="pulse-x"></div>
                 </div>
                 <div className="container">
-                    <h2 className="f_size_30 f_600 t_color3 l_height45 text-center mb_90">SaasLand is built for designers like you.<br/> With useful features, an intuitive interface.</h2>
+                    <h2 className="f_size_30 f_600 t_color3 l_height45 text-center mb_90">Get to know our AmasHR software.<br/> With useful HR features.</h2>
                     <div className="row p_service_info">
                             {
                                 ServiceData.HRService.map(item => {

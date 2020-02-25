@@ -32,21 +32,21 @@ class AgencyAbout extends Component {
                     <Slider className="about_img_slider" {...settings}>
                         <div className="item">
                             <div className="about_item w45">
-                                <img src={require('../../img/home4/team001.jpg')} alt=""/>
+                                <img src={require('../../img/home4/team001-min.jpg')} alt=""/>
                                 <div className="about_text">
                                     <span className="br"></span>
                                     <h5 className="f_size_18 l_height28 mb-0">{ServiceData.agtext1}</h5>
                                 </div>
                             </div>
                             <div className="about_item w55">
-                                <img src={require('../../img/home4/team02.jpg')} alt=""/>
+                                <img src={require('../../img/home4/team02-min.jpg')} alt=""/>
                                 <div className="about_text text_two">
                                     <span className="br"></span>
                                     <h5 className="f_size_18 l_height28 mb-0">{ServiceData.agtext2}</h5>
                                 </div>
                             </div>
                             <div className="about_item w55">
-                                <img src={require('../../img/home4/team03.jpg')} alt=""/>
+                                <img src={require('../../img/home4/team03-min.jpg')} alt=""/>
                                 <div className="about_text text_two">
                                     <span className="br"></span>
                                     <h5 className="f_size_18 l_height28 mb-0">{ServiceData.agtext3}</h5>
@@ -55,21 +55,21 @@ class AgencyAbout extends Component {
                         </div>
                         <div className="item">
                             <div className="about_item w45">
-                                <img src={require('../../img/home4/team001.jpg')} alt=""/>
+                                <img src={require('../../img/home4/team001-min.jpg')} alt=""/>
                                 <div className="about_text">
                                     <span className="br"></span>
                                     <h5 className="f_size_18 l_height28 mb-0">{ServiceData.agtext1}</h5>
                                 </div>
                             </div>
                             <div className="about_item w55">
-                                <img src={require('../../img/home4/team02.jpg')} alt=""/>
+                                <img src={require('../../img/home4/team02-min.jpg')} alt=""/>
                                 <div className="about_text text_two">
                                     <span className="br"></span>
                                     <h5 className="f_size_18 l_height28 mb-0">{ServiceData.agtext2}</h5>
                                 </div>
                             </div>
                             <div className="about_item w55">
-                                <img src={require('../../img/home4/team03.jpg')} alt=""/>
+                                <img src={require('../../img/home4/team03-min.jpg')} alt=""/>
                                 <div className="about_text text_two">
                                     <span className="br"></span>
                                     <h5 className="f_size_18 l_height28 mb-0">{ServiceData.agtext3}</h5>
