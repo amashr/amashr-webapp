@@ -47,12 +47,11 @@ class Portfolio3grid extends Component{
                 <div className="container">
                     <div id="portfolio_filter" className="portfolio_filter mb_50">
                         <div data-filter="*" className={`work_portfolio_item ${this.onActive('*')}`} onClick={() => {this.onFilterChange("*")}}>All</div>
-                        <div data-filter="brand" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("brand")}}>Branding</div>
-                        <div data-filter="develop" className={`work_portfolio_item ${this.onActive('develop')}`} onClick={() => {this.onFilterChange("develop")}}>Development</div>
-                        <div data-filter="web" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("web")}}>Web Design</div>
-                        <div data-filter="fashion" className={`work_portfolio_item ${this.onActive('fashion')}`} onClick={() => {this.onFilterChange("fashion")}}>Fashion</div>
-                        <div data-filter="ux" className={`work_portfolio_item ${this.onActive('ux')}`} onClick={() => {this.onFilterChange("ux")}}>UI/UX</div>
-                        <div data-filter="product" className={`work_portfolio_item ${this.onActive('product')}`} onClick={() => {this.onFilterChange("product")}}>Product</div>
+                        <div data-filter="brand" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("brand")}}>Appliant Tracking System (ATS)</div>
+                        <div data-filter="develop" className={`work_portfolio_item ${this.onActive('develop')}`} onClick={() => {this.onFilterChange("develop")}}>Mobile Hiring App</div>
+                        <div data-filter="web" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("web")}}>Job Posting</div>
+                        <div data-filter="fashion" className={`work_portfolio_item ${this.onActive('fashion')}`} onClick={() => {this.onFilterChange("fashion")}}>Human Capital Management</div>
+                      
                     </div>
                     <div className="row portfolio_gallery mb_30" id="work-portfolio">
                         <Portfolio2griditem colClass="col-lg-4 col-sm-6 web fashion" pImg="3-columns/3_col_1.jpg" ptitle="Apple Mobile Mockup" tOne="Web" tTwo="Fashion"/>

@@ -10,16 +10,16 @@ const AppTeam =()=>{
                 <Reveal bottom cascade>
                     <div className="row">
                         <div className="col-lg-3 col-sm-6">
-                            <Teamitem teamImage="team_01.jpg" memberN="Phillip Anthropy" memberd="web designer"/>
+                            <Teamitem teamImage="team_01.jpg" memberN="Jane Phillip" memberd="CEO"/>
                         </div>
                         <div className="col-lg-3 col-sm-6">
-                            <Teamitem teamImage="team_02.jpg" memberN="Gordon Norman" memberd="UI/UX designer"/>
+                            <Teamitem teamImage="team_02.jpg" memberN="Gordon Norman" memberd="CFO"/>
                         </div>
                         <div className="col-lg-3 col-sm-6">
-                            <Teamitem teamImage="team_03.jpg" memberN="Dylan Meringue" memberd="web designer"/>
+                            <Teamitem teamImage="team_03.jpg" memberN="Jack Dylan" memberd="CIO"/>
                         </div>
                         <div className="col-lg-3 col-sm-6">
-                            <Teamitem teamImage="team_04.jpg" memberN="Bailey Wonger" memberd="Marketer"/>
+                            <Teamitem teamImage="team_04.jpg" memberN="Amanda Johnson" memberd="CHO"/>
                         </div>
                         <div className="col-lg-12 text-center">
                             <a href=".#" className="learn_btn">Meet All Team <i className="ti-arrow-right"></i></a>

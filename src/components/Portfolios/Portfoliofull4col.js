@@ -46,12 +46,9 @@ class Portfoliofull4col extends Component{
                 <div className="container-fluid pl-0 pr-0">
                     <div id="portfolio_filter" className="portfolio_filter mb_50">
                         <div data-filter="*" className={`work_portfolio_item ${this.onActive('*')}`} onClick={() => {this.onFilterChange("*")}}>All</div>
-                        <div data-filter="brand" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("brand")}}>Branding</div>
-                        <div data-filter="develop" className={`work_portfolio_item ${this.onActive('develop')}`} onClick={() => {this.onFilterChange("develop")}}>Development</div>
-                        <div data-filter="web" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("web")}}>Web Design</div>
-                        <div data-filter="fashion" className={`work_portfolio_item ${this.onActive('fashion')}`} onClick={() => {this.onFilterChange("fashion")}}>Fashion</div>
-                        <div data-filter="ux" className={`work_portfolio_item ${this.onActive('ux')}`} onClick={() => {this.onFilterChange("ux")}}>UI/UX</div>
-                        <div data-filter="product" className={`work_portfolio_item ${this.onActive('product')}`} onClick={() => {this.onFilterChange("product")}}>Product</div>
+                        <div data-filter="brand" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("brand")}}>New Hire Onboarding</div>
+                        <div data-filter="develop" className={`work_portfolio_item ${this.onActive('develop')}`} onClick={() => {this.onFilterChange("develop")}}>Offboarding</div>
+                        <div data-filter="web" className={`work_portfolio_item ${this.onActive('web')}`} onClick={() => {this.onFilterChange("web")}}>Electronic Signatures</div>
                     </div>
                     <div className="row portfolio_gallery ml-0 mr-0" id="work-portfolio">
                         <Portfolio2griditem colClass="col-lg-3 mb-0 p0 col-sm-6 web fashion" pImg="full-width/full_1.jpg" ptitle="Apple Mobile Mockup" tOne="Web" tTwo="Fashion"/>

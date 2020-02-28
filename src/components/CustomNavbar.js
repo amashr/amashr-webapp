@@ -47,30 +47,30 @@ class CustomNavbar extends Component {
                                   
 
                                 </li>
-                                <li className="nav-item"><NavLink exact title="Service" className="nav-link" to='/Pages/Service'>Service</NavLink></li>
+                                <li className="nav-item"><NavLink exact title="Service" className="nav-link" to='/Pages/Service'>Services</NavLink></li>
                                 <li className="dropdown submenu nav-item">
-                                    <Link to="/" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</Link>
+                                    <Link to="/" title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Know AmasHR</Link>
                                     <ul role="menu" className=" dropdown-menu">
                                         <li className="nav-item"><NavLink exact title="About" className="nav-link" to='/Pages/About'>About</NavLink></li>
                                         <li className="nav-item"><NavLink exact title="Process" className="nav-link" to='/Pages/Process'>Process</NavLink></li>
                                         <li className="nav-item"><NavLink exact title="Team" className="nav-link" to='/Pages/Team'>Team</NavLink></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown submenu nav-item"><Link title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" to="#">Portfolio</Link>
+                                <li className="dropdown submenu nav-item"><Link title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" to="#">HR Tools</Link>
                                     <ul role="menu" className=" dropdown-menu">
-                                        <li className="nav-item"><NavLink title="Service" className="nav-link" to='/Pages/Portfolio-2col'>Portfolio 2col</NavLink></li>
-                                        <li className="nav-item"><NavLink title="About" className="nav-link" to='/Pages/Portfolio-3col'>Portfolio 3col</NavLink></li>
-                                        <li className="nav-item"><NavLink title="Process" className="nav-link" to='/Pages/Portfolio-fullwidth-4col'>Portfolio fullwith</NavLink></li>
-                                        <li className="nav-item"><NavLink title="PortfolioSingle" className="nav-link" to='/Pages/PortfolioSingle'>Portfolio Single</NavLink></li>
+                                        <li className="nav-item"><NavLink title="Service" className="nav-link" to='/Pages/Portfolio-2col'>People Data & Analytics</NavLink></li>
+                                        <li className="nav-item"><NavLink title="About" className="nav-link" to='/Pages/Portfolio-3col'>Hiring</NavLink></li>
+                                        <li className="nav-item"><NavLink title="Process" className="nav-link" to='/Pages/Portfolio-fullwidth-4col'>Onboarding</NavLink></li>
+                                        <li className="nav-item"><NavLink title="PortfolioSingle" className="nav-link" to='/Pages/PortfolioSingle'>Compensation</NavLink></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown submenu">
                                     <a className="nav-link dropdown-toggle" href=".#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Blog
+                                        Resources
                                     </a>
                                     <ul className="dropdown-menu">
-                                        <li className="nav-item"><NavLink to="/Pages/Bloglist" className="nav-link">Blog List</NavLink></li>
-                                        <li className="nav-item"><NavLink to="/Pages/BlogSingle" className="nav-link">Blog Single</NavLink></li>
+                                        <li className="nav-item"><NavLink to="/Pages/Bloglist" className="nav-link">Performance & Culture</NavLink></li>
+                                        <li className="nav-item"><NavLink to="/Pages/BlogSingle" className="nav-link">Benefit & Compensation</NavLink></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Pages/Contact">Contact</NavLink></li>
